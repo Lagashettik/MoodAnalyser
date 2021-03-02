@@ -1,11 +1,11 @@
 public class MoodAnalyzer {
-    String message = null;
+    String message;
     MoodAnalyzer(){}
     MoodAnalyzer(String message){
         this.message = message;
     }
     public String analyseMood(){
-        return "HAPPY";
+        return "SAD";
     }
 
     public String analyseMood(String message) {

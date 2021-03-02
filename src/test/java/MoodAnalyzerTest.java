@@ -20,13 +20,13 @@ public class MoodAnalyzerTest {
     public void testMoodHappyByUsingConstructor(){
         MoodAnalyzer moodAnalyzer = new MoodAnalyzer("Today I am Happy");
         String mood = moodAnalyzer.analyseMood();
-        Assert.assertEquals("HAPPY",mood);
+        Assert.assertEquals("SAD",mood);
     }
 
     @Test
     public void testMoodSadByUsingConstructor(){
         MoodAnalyzer moodAnalyzer = new MoodAnalyzer("Today I am sad");
         String mood = moodAnalyzer.analyseMood();
-        Assert.assertEquals("HAPPY",mood);
+        Assert.assertEquals("SAD",mood);
     }
 }
